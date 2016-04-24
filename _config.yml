@@ -1,6 +1,6 @@
 # Site
 title:              Wade
-bio:                'Minimal, one column jekyll theme.'
+bio:                '欢迎来到Wade的前端博客.'
 description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
 words_per_minute:   200
@@ -36,19 +36,19 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
+email:              844496869@qq.com
 twitter:            username
 facebook:           username
-github:             username
+github:             844496869
 #stackoverflow:      123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:           username
 #xing:              username
-instagram:          username
+#instagram:          username
 #lastfm:             username
 #tumblr:             username
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:            username
 #soundcloud:        username
