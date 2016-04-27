@@ -58,11 +58,11 @@ github:             844496869
 #codepen:           username
 
 # Gems
-gems:
+# gems:
 #   - jekyll-mentions
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
+#   - jekyll-feed
+#   - jekyll-sitemap
+#   - jekyll-gist
 
 # jekyll-mentions:
 #     base_url: https://github.com
