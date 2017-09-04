@@ -1,0 +1,322 @@
+.uiSub-hidden {
+  display: none;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  font-family: Helvetica, sans-serif, "微软雅黑";
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  font-size: 14px;
+}
+ul li {
+  list-style: none;
+}
+a,
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+:root,
+body {
+  background: #fff;
+}
+body {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.block {
+  display: block !important;
+}
+.hidden {
+  display: none !important;
+}
+.mb-midium {
+  margin-bottom: 15px;
+}
+.row {
+  display: block !important;
+}
+.form-format input {
+  width: 200px;
+}
+.txt-center {
+  text-align: center;
+}
+[v-cloak] {
+  display: none;
+}
+.header-container {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  padding: 20px 10px 0 210px;
+  vertical-align: middle;
+  color: #48576a;
+  background: #1f2d3d;
+}
+.header-container .el-breadcrumb {
+  font-size: 20px;
+  border-bottom: 0;
+}
+.header-container .el-breadcrumb span {
+  color: #fff;
+}
+.container-sidebar {
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #1f2d3d;
+}
+.container-sidebar .header {
+  height: 60px;
+  padding: 0 20px;
+}
+.container-sidebar .header a {
+  color: #EEE;
+  display: inline-block;
+  line-height: 60px;
+  text-decoration: none;
+}
+.container-sidebar .header img {
+  vertical-align: middle;
+  margin-bottom: 13px;
+}
+.container-sidebar .header span {
+  font-size: 26px;
+  margin-left: 10px;
+}
+.container-body {
+  margin-left: 200px;
+}
+.container-body .uiSub-page-singlePage {
+  padding: 10px;
+}
+.link {
+  cursor: pointer;
+  color: #20a0ff;
+}
+.el-form--inline .el-form-item__content {
+  vertical-align: middle;
+}
+.el-date-editor.el-input {
+  width: 100%;
+}
+.el-form-item .line {
+  text-align: center;
+}
+.el-loading-spinner {
+  top: 200px;
+  margin-top: auto;
+}
+.expand .el-form-item {
+  width: 40%;
+}
+.cell .el-input-number {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.el-pagination {
+  text-align: right;
+  padding-top: 15px;
+}
+.el-breadcrumb {
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.pre .cell {
+  white-space: pre-wrap;
+}
+.el-form {
+  padding: 22px 20px 0;
+  border: 1px solid #efefef;
+  background: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.title {
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.el-table.has-select td {
+  padding: 10px 0;
+}
+.company-manager-container .el-collapse-item__header {
+  pointer-events: none;
+}
+.company-manager-container .el-collapse-item__header .el-collapse-item__header__arrow {
+  display: none;
+}
+.company-manager-container .el-collapse-item__header button {
+  float: right;
+  margin-right: 30px;
+  margin-top: 7px;
+}
+.company-manager-container .el-form-item {
+  margin-bottom: 15px;
+}
+.company-manager-container .action-wrapper {
+  text-align: center;
+}
+.company-manager-container .action-wrapper button {
+  margin: 20px;
+}
+.company-manager-container .middle {
+  width: 84px;
+}
+.user-detail-container h3.is-desc {
+  line-height: 50px;
+}
+.user-detail-container h3.is-desc span {
+  width: 200px;
+  display: inline-block;
+  color: red;
+  margin-left: 10px;
+}
+.user-detail-container dl.is-desc {
+  line-height: 50px;
+}
+.user-detail-container dl.is-desc dt {
+  font-weight: bolder;
+}
+.user-detail-container dl.is-desc dd {
+  width: 300px;
+  display: inline-block;
+}
+.user-detail-container dl.is-desc span {
+  color: red;
+  padding: 0 10px;
+}
+.is-desc-format h3 {
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: bolder;
+  border-bottom: 1px solid #f1f1f1;
+}
+.is-desc-format .el-form-item {
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 0;
+  padding: 10px;
+}
+.is-desc-format .el-form-item:hover {
+  background: #fafafa;
+}
+.is-desc-format label {
+  font-weight: bolder;
+}
+.is-desc-format .el-form-item__content {
+  color: #999;
+}
+.is-server-instance-detail h1 {
+  line-height: 60px;
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.is-server-instance-detail .el-col {
+  margin-bottom: 20px;
+}
+.is-server-instance-detail .el-tag {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+.product-price-detail-container .el-table {
+  margin-bottom: 10px;
+}
+.order-deal-manager-container .el-card {
+  margin-bottom: 20px;
+}
+.order-deal-manager-container .el-card__header {
+  font-size: 16px;
+  font-weight: bold;
+}
+.order-deal-manager-container .el-card__body > div {
+  display: inline-block;
+  width: 35%;
+  margin-top: 4px;
+  font-size: 15px;
+}
+.order-deal-detail-container .el-card {
+  margin-bottom: 20px;
+}
+.order-deal-detail-container .el-card__header {
+  font-size: 16px;
+  font-weight: bold;
+}
+.order-deal-detail-container .el-card__body > div {
+  display: inline-block;
+  width: 40%;
+  margin-top: 4px;
+  font-size: 15px;
+}
+.order-card-container h3 {
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 15px;
+}
+.order-card-container .el-form--inline .el-form-item {
+  display: block;
+}
+.order-card-container .right-select {
+  margin-left: 30px;
+}
+.order-card-container .remove-button {
+  float: right;
+  margin-right: 20px;
+  padding: 0px 0px;
+  height: 100%;
+}
+.order-card-container .el-form-item {
+  margin-bottom: 10px;
+}

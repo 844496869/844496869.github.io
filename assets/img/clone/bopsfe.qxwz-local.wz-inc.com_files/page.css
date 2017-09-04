@@ -1,0 +1,8 @@
+.uiSub-page-container .uiSub-page-singlePage {
+  width: 100%;
+  display: none;
+  box-sizing: border-box;
+}
+.uiSub-page-container .uiSub-page-singlePage.active {
+  display: block;
+}
